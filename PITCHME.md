@@ -4,9 +4,12 @@ A language for BEAM
 
 ---
 
-# How Elixir helps
+## How Elixir helps
 
  - A
  - B
  - C
- 
+
+### Like this
+
+Blah, blah, bladibla!
