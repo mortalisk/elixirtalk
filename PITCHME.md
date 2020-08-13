@@ -1,17 +1,20 @@
-# Elixir, huh, hah
+# Why learn Elixir
 
 A language for BEAM
 
 ---
 
+## BEAM
+
+A virtual machine that enforces isolation of memory
+
 ## How Elixir helps
 
- - A
- - B
- - C
+ - A different way of programming a system
+ - 
  
 ---
 
 ### Like this
 
-Blah, blah, bladibla!
+
