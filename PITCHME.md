@@ -8,8 +8,8 @@ A language for BEAM
 ## Why Elixir
 
  - An alternative language for BEAM
- - Additional libraries
- - Tooling
+ - Additional standard libraries
+ - Great tooling
 
 ---
 
@@ -36,16 +36,43 @@ A language for BEAM
 
  - Lightweight processes
    - Can't block the scheduler
- - Communication by messages
-   - each process has a message queue
-   - send to abstract PID
+   - Work stealing
  - Isolated processes
+   - Communication by messages
    - No shared memory
+   - Immutable memory (i.e. functional)
  - Process monitoring and restarting
    - "Let it crash!"
- - Functional
-   - Immutable memory
- - Work stealing scheduler
+
+---
+
+#### Process
+
+![process](process.png)
+
+---
+
+#### Scheduler
+
+![scheduler](worksteal.png)
+
+---
+
+#### Isolation
+
+![isolation](communicating.png)
+
+---
+
+#### Isolation -> Distributed
+
+![cluster](cluster.png)
+
+---
+
+#### Monitoring
+
+![supervise](supervise.png)
 
 ---
 
@@ -57,4 +84,4 @@ A language for BEAM
 
 ---
 
-### Like this
+## Some code
