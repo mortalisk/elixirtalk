@@ -21,7 +21,7 @@ A language for BEAM
 
 ---
 
-## Telephone? What?
+### Telephone? What?
 
  - High number of concurrent events
  - Lot's of IO
@@ -32,7 +32,7 @@ A language for BEAM
 
 ---
 
-## How BEAM achieves this
+### How BEAM achieves this
 
  - Lightweight processes
    - Can't block the scheduler
